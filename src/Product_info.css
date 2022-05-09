@@ -1,0 +1,18 @@
+.heading-section{
+    background-image:  linear-gradient(rgba(245,221,245,0.3), rgba(243,190,169,0.3)) !important;
+    font-family: Medium !important; 
+}
+@font-face {
+    font-family: Medium;
+    src: url(./font/SVN-Gilroy\ Medium.otf);
+  }
+  @font-face {
+    font-family: Bold;
+    src: url(./font/SVN-Gilroy\ Bold.otf);
+  }
+  .medium-font{
+    font-family: Medium;
+  }
+  .bold-font{
+    font-family: Bold;
+  }

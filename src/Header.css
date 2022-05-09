@@ -1,0 +1,137 @@
+@font-face {
+  font-family: Medium;
+  src: url(./font/SVN-Gilroy\ Medium.otf);
+}
+@font-face {
+  font-family: Bold;
+  src: url(./font/SVN-Gilroy\ Bold.otf);
+}
+.medium-font{
+  font-family: Medium;
+}
+.bold-font{
+  font-family: Bold;
+}
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right,rgba(251,231,233), rgba(231,207,238), rgba(251,231,233),rgba(251,231,233) ,rgba(251,231,233),rgba(231,207,238));
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    font-family: Bold;
+    width: 100%;
+   left: 0;
+   right: 0;
+  }
+
+  .header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 8px;
+  }
+  
+  .header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+    margin-top: 15px;
+  }
+  
+  .header__searchInput {
+    height: 45px;
+    padding: 8px;
+    color:  rgba(60, 51, 79, 1);
+    width: 100%;
+    
+  }
+  @media (max-width: 740px){
+    .header{
+      margin-left: auto;
+      margin-right: auto;
+      width: 100% !important;
+      top: 0 !important;
+    }
+    .header__optionBasket{
+      margin-right: 30px !important;
+      margin-top: 10px;
+      height: 35px !important;
+    }
+  .header__searchIcon{
+    display: none !important;
+    
+  }
+  .header__searchInput{
+    width: 40px !important;
+    padding-right: 0px !important;
+    height: 90% !important;
+  }
+  .icon_basket{
+    font-size: 20px !important;
+  }
+  .headall{
+    display: none !important;
+  }
+  .your__prime{
+    display: none !important;
+  }
+  .header__optionLineOne,
+  .header__optionLineTwo{
+    font-size: 9px !important;
+  }
+  .header__optionLineOne{
+    margin-top: 5px;
+  }
+  .header__logo {
+    width: 50px;
+  }
+}
+  .header__searchIcon {
+    padding: 5px;
+    height: 42px !important;
+    width: 42px !important;
+    background-color: rgba(60, 51, 79, 1);
+    color: white;
+    
+  }
+  
+  .header__optionLineOne {
+    font-size: 13px;
+    
+  }
+  
+  .header__optionLineTwo {
+    font-size: 14px;
+    font-weight: 800;
+  }
+  
+  .header__optionBasket {
+    display: flex;
+    align-items: center;
+    color: rgba(60, 51, 79, 1);
+  }
+  
+  .header__basketCount {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: rgba(60, 51, 79, 1);
+    line-height: 15px !important;
+  }
+ .subHeader{
+   margin-top: 60px!important;
+ }

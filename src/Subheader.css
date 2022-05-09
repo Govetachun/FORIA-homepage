@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Medium;
+    src: url(./font/SVN-Gilroy\ Medium.otf);
+  }
+  @font-face {
+    font-family: Bold;
+    src: url(./font/SVN-Gilroy\ Bold.otf);
+  }
+  .medium-font{
+    font-family: Medium;
+  }
+  .bold-font{
+    font-family: Bold;
+  }
+  
+
+
+.subheader{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right,rgba(251,231,233), rgba(231,207,238), rgba(251,231,233),rgba(251,231,233) ,rgba(251,231,233),rgba(231,207,238));
+    position: sticky;
+    z-index: 100;
+    font-family: Bold;
+}
+@media (max-width: 768px){
+  .subheader >a{
+    font-size: 10px !important;
+  }
+}
+.offcanvas-header{
+  background-image: linear-gradient(to right,rgba(251,231,233), rgba(231,207,238), rgba(251,231,233),rgba(251,231,233) ,rgba(251,231,233),rgba(231,207,238));
+}
+.offcv{
+    height: 25px;
+    /* line-height: 15px; */
+    
+    padding-bottom: 25px ;
+    margin-bottom: 10px;
+    color: rgba(60, 51, 79, 1) !important;
+    
+}
+.subheader a{
+  font-size: 14px;
+}
+ .tab_icon{
+     margin-bottom: 5px;
+} 
+.offcv:hover{
+    border:1px solid rgba(60, 51, 79, 1);
+}
