@@ -60,7 +60,7 @@ const history = useNavigate();
                     <h3>Phương thức thanh toán</h3>
                 </div>
                 <div className='payment__details'>
-                        <form onSubmit={handleSubmit}>
+                        {/* <form onSubmit={handleSubmit}>
                             <CardElement onChange={handleChange} />
                             <div className='payment__priceContainer'>
                                 <CurrencyFormat
@@ -82,7 +82,7 @@ const history = useNavigate();
                                 
                             </div>
                           
-                        </form>
+                        </form> */}
                 </div>
             </div>
         </div>
