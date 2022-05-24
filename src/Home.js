@@ -20,18 +20,13 @@ import asset11 from './img/Asset 11.png';
 import asset12 from './img/Asset 12.png';
 import asset13 from './img/Asset 13.png';
 import asset14 from './img/Asset 14.png';
-import asset15 from './img/Asset 15.png';
+
 import asset16 from './img/Asset 16.png';
-import asset17 from './img/Asset 17.png';
-import asset18 from './img/Asset 18.png';
+
 import asset19 from './img/Asset 19.png';
-import asset20 from './img/Asset 20.png';
-import asset21 from './img/Asset 21.png';
-import asset22 from './img/Asset 22.png';
+
 import asset23 from './img/Asset 23.png';
-import asset24 from './img/Asset 24.png';
-import asset25 from './img/Asset 25.png';
-import pic1 from './img/pic1.jpg';
+
 import pic2 from './img/pic2.jpg';
 import pic3 from './img/pic3.jpg';
 import pic4 from './img/pic4.png';
@@ -39,7 +34,7 @@ import pic5 from './img/pic5.png';
 import pic6 from './img/pic6.jpg';
 import pic7 from './img/pic7.png';
 import pic8 from './img/pic8.jpg';
-import pic9 from './img/pic9.jpg';
+
 import pic10 from './img/pic10.jpg';
 import pic11 from './img/pic11.png';
 import pic12 from './img/pic12.png';
@@ -50,27 +45,20 @@ import pic16 from './img/pic16.png';
 import pic17 from './img/pic17.png';
 import pic18 from './img/pic18.png';
 import pic19 from './img/pic19.png';
-import pic20 from './img/pic20.png';
-import pic21 from './img/pic21.png';
-import pic22 from './img/pic22.png';
-import pic23 from './img/pic23.png';
-import pic24 from './img/pic24.png';
-import pic25 from './img/pic25.png';
-import pic26 from './img/pic26.png';
-import pic27 from './img/pic27.png';
+
 import pic28 from './img/bubble.png';
 import pic29 from './img/pic29.jpg';
 import pic30 from './img/Indigrotto.png';
 import pic31 from './img/hiten artwork.png';
-import pic32 from './img/pic32.png';
+
 import pic33 from './img/Miku Nakano.png';
 import pic34 from './img/pic34.jpg';
-import pic35 from './img/pic35.jpg';
+
 import pic36 from './img/figure 1.png';
 import pic37 from './img/pic37.png';
 import pic38 from './img/pic38.jpg';
 import pic39 from './img/pic39.jpg';
-import pic40 from './img/pic40.jpg';
+
 import pic41 from './img/pic41.jpg';
 import pic42 from './img/SAO.png';
 import pic43 from './img/pic43.png';
@@ -116,7 +104,7 @@ import HaAnhTuan from './img/Diathan.webp';
 import LeCat from './img/le-cat-trong-ly-hai-nguoi-chang-thay-nhau-times-exclusive-dia-cd_74e1543204324e66a8036aeff632e3e7_grande.webp';
 import camila from './img/camila-romance-cover-1-signed-co-chu-ky-dia-cd_b22700292f3a4bc2ae46de432385bae3_grande.webp';
 import { Tabs, Tab } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+
 
 function Home() {
   return (

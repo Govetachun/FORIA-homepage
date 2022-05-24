@@ -3,7 +3,7 @@ import './Product_info.css'
 import { useStateValue } from './StateProvider';
 import Information from './Information';
 function Product_info() {
-    const [{ basket, user }, dispatch] = useStateValue();
+    const [{ basket}] = useStateValue();
   return (
     <div class="heading-section">
               <h2>Thông tin sản phẩm</h2>

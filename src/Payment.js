@@ -1,24 +1,25 @@
-import React, { useEffect, useState } from 'react'
+// import  { useEffect, useState } from 'react'
+import React from 'react';
 import CheckoutProduct from './CheckOutProduct';
 import './Payment.css'
 import { useStateValue } from './StateProvider'
 import {Link,useNavigate} from 'react-router-dom'
-import {CardElement,useStripe,useElements} from '@stripe/react-stripe-js'
-import CurrencyFormat from "react-currency-format"
-import axios from 'axios';
-import { getBasketTotal } from './reducer';
+// import {CardElement,useStripe,useElements} from '@stripe/react-stripe-js'
+// import CurrencyFormat from "react-currency-format"
+// import axios from 'axios';
+// import { getBasketTotal } from './reducer';
 function Payment() {
-const history = useNavigate();
-  const[{basket,user},dispatch] = useStateValue();
+//const history = useNavigate();
+  const[{basket,user}] = useStateValue();
 
  
-  const handleSubmit = async(event) =>{
+//   const handleSubmit = async(event) =>{
       
-  }
-  const handleChange =  event=>{
-        //do stripe
+//   }
+//   const handleChange =  event=>{
+//         //do stripe
        
-  }
+//   }
   return (
     <div className='payment'>
         <div className='payment__container'>

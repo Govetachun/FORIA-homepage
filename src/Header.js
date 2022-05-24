@@ -8,7 +8,7 @@ import { auth } from './firebase';
 import logo from './img/logo.png'
 import 'bootstrap/dist/css/bootstrap.css';
 function Header() {
-  const[{basket,user},dispatch] = useStateValue();
+  const[{basket,user}] = useStateValue();
   const handleAuthen = () => {
     if(user){
       auth.signOut();

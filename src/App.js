@@ -21,7 +21,7 @@ const promise = loadStripe(
   "pk_test_51KoqMpFR3MINBE7WWCc0ydm4SiJmAL4mZsgIoQYTsqrQeTzN6IKqxGt5M4sLWua5t0dflM9Vyj5jTHFzCH5rauyg00DR65f33X"
 );
 function App() {
-  const[{basket,user},dispatch] = useStateValue();
+  const[{basket},dispatch] = useStateValue();
  
 
   // useEffect(() => {
