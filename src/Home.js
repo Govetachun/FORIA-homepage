@@ -465,13 +465,14 @@ function Home() {
           <h3> FOR YOU</h3>
         </div>
         <div className="spmoi">
-          <a href="https://amza.vercel.app">
+          
             <Tabs
               defaultActiveKey="home"
               id="uncontrolled-tab-example"
               className="mb-3 haiz"
             >
               <Tab eventKey="home" title="US-UK" className="haiz ">
+              <a href="https://amza.vercel.app">
                 <div className="USUK">
                   <div class="col-xs-6 col-sm-6 col-md-2">
                     <Product
@@ -674,8 +675,10 @@ function Home() {
                     />
                   </div>
                 </div>
+                </a>
               </Tab>
               <Tab eventKey="profile" title="Kpop" className="haiz">
+              <a href="https://amza.vercel.app">
                 <div className="KPOP">
                   <div class="col-xs-6 col-sm-6 col-md-2">
                     <Product
@@ -879,8 +882,10 @@ function Home() {
                     />
                   </div>
                 </div>
+                </a>
               </Tab>
               <Tab eventKey="contact" title="ANIME" className="haiz animea">
+              <a href="https://amza.vercel.app">
                 <div className="JPOP">
                   <div class="col-xs-6 col-sm-6 col-md-2">
                     <Product
@@ -1088,8 +1093,10 @@ function Home() {
                     />
                   </div>
                 </div>
+                </a>
               </Tab>
               <Tab eventKey="email" title="VPOP" className="haiz">
+              <a href="https://amza.vercel.app">
                 <div class="col-xs-6 col-sm-6 col-md-2">
                   <Product
                     image={vpop1}
@@ -1289,9 +1296,10 @@ function Home() {
                     origin={400}
                   />
                 </div>
+                </a>
               </Tab>
             </Tabs>
-          </a>
+          
         </div>
       </div>
 
